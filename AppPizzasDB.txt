@@ -1,0 +1,25 @@
+create database AppPizzas;
+
+use AppPizzas;
+
+
+ create table contacto(
+    nombre varchar(30) primary key,
+    email varchar(35),
+    comentario varchar(100));
+
+
+ create table pedidos(
+    nombre varchar(50) primary key,
+    telefono varchar(50),
+    direccion varchar(50),
+   producto varchar(50));
+
+
+
+insert into pedidos values
+("Jairo Torres","4921969134","Av. Constelaciones 417","Producto 1"),
+("Miguel Castillo","492101015","De las Piedras","Promocio 2"),
+("Diego Alberto","4981011045","Calle del Mal","Producto 3"),
+("Marquez","555 555 55 55" ,"Av. del  55","Producto 2"),
+("Erik Jacob","4921440122","San Fernando","Promocion 2");
